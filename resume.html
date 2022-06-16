@@ -8,16 +8,16 @@
 
 
   <script>
-    document.getElementById("demo").addEventListener("mouseover", mouseOver);
-    document.getElementById("demo").addEventListener("mouseout", mouseOut);
+    document.getElementById("black-to-red").addEventListener("mouseover", mouseOver);
+    document.getElementById("black-to-red").addEventListener("mouseout", mouseOut);
 
     function mouseOver() {
-      document.getElementById("demo").style.color = "red";
+      document.getElementById("black-to-red").style.color = "red";
     }
 
 
     function mouseOut() {
-      document.getElementById("demo").style.color = "black";
+      document.getElementById("black-to-red").style.color = "black";
     }
     function sendDetails() {
    
@@ -25,11 +25,11 @@
     }   
     
     function mouseOver() {
-    document.getElementById("demo").style.color = "red";
+    document.getElementById("black-to-red").style.color = "red";
   }
   
   function mouseOut() {
-    document.getElementById("demo").style.color = "black";
+    document.getElementById("black-to-red").style.color = "black";
   }
 
  
@@ -78,7 +78,7 @@ text{
   #header {
     height: 50px;
     width: 855px;
-    background-color: #ffcccc;
+    background-color: #12d1db;
     position: fixed;
     z-index: 1;
   }
@@ -98,7 +98,7 @@ text{
   .left {
     height: 1000px;
     width: 45px;
-    background-color: #e0eeee;
+    background-color: #a68fc6;
     float: left;
     position: fixed;
   }
@@ -172,8 +172,6 @@ text{
     <br><br>
     
     <br>
-    <h2>Liat Lerman</h2>
-    <br>
     <li>Year of birth: 1990</li>
     <li>Address: Holon, Israel</li>
     </li>
@@ -182,24 +180,24 @@ text{
 
 
 
-    <a id="demo" href="https://www.linkedin.com/in/liat-lerman-752681200/">
+    <a id="black-to-red" href="https://www.linkedin.com/in/liat-lerman-752681200/">
       <li>
-        <span id="demo2" onmouseover='document.getElementById("demo2").style.color="red"'
-          onmouseout='document.getElementById("demo2").style.color="black"'>Linkedin </span>
+        <span id="black-to-red2" onmouseover='document.getElementById("black-to-red2").style.color="red"'
+          onmouseout='document.getElementById("black-to-red2").style.color="black"'>Linkedin </span>
       </li>
     </a>
 
-    <a id="demo" href="https://github.com/liat-codes">
+    <a id="black-to-red" href="https://github.com/liat-codes">
       <li>
-        <span id="demo1" onmouseover='document.getElementById("demo1").style.color="red"'
-          onmouseout='document.getElementById("demo1").style.color="black"'>Github </span>
+        <span id="black-to-red1" onmouseover='document.getElementById("black-to-red1").style.color="red"'
+          onmouseout='document.getElementById("black-to-red1").style.color="black"'>Github </span>
       </li>
     </a>
 
 
-    <hr />
+    <hr>
 
-    <h3 class="head">Summary</h3>
+    <h2 class="head">Summary</h2>
 
     <ul>
 
@@ -218,7 +216,9 @@ text{
     
       <span>
     
-      <br><br><h4 class="head">Education</h4>
+      <br><br><h3 class="head">Education</h3>
+
+      <br>
     <ul>
 
 
@@ -267,7 +267,7 @@ text{
 </li>
 
 <li>
-  Final Project: Building HTML page + Gmail automation using  notepad++ , Eclipse, Selenium+Oxygen WebDriver and P.O.M (Open my github ^)
+  Final Project: Building HTML page + Gmail automation using  notepad++ , Eclipse, Selenium+Oxygen WebDriver and P.O.M 
 
 </li>
 
@@ -286,7 +286,7 @@ text{
   </ul>
 
     </ul>
-    <h5 class="head">Professional History</h5>
+    <h4 class="head">Professional History</h4>
     <ul>
       <br>2017 - present - “IFAT”, Tel Aviv, transcriber and text editor of news broadcasting
       <br>
@@ -302,13 +302,13 @@ text{
       <br>
       <br>
     </ul>
-    <h6 class="head">National Service</h6>
+    <h5 class="head">National Service</h5>
     <br>
     <ul>
       <li>2011 - 2012 - “Clalit” health services, Ramat Gan, assistant manager: Managing medical documents for nursing homes</li>
         <br>
       </ul>
-        <p class="head">Volunteering</p>
+        <h6 class="head">Volunteering</h6>
         <br>
         <li>
           2012-2013 - "Perach" - tutorial project: Tutor
@@ -324,7 +324,7 @@ text{
       <li>Excel</li>
       <li>Visual Studio Code</li>
       <li>Intellij</li>
-      <li>Visual Studio Code</li>
+      
       
      
     </ul>
